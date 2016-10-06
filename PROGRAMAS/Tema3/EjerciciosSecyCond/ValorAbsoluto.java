@@ -1,4 +1,4 @@
-package Ejercicios;
+package EjerciciosSecyCond;
 /*ANALISIS:
 	 *     * Programa que hallara el valor absoluto de un numero
 	 * 

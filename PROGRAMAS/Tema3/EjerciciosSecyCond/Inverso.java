@@ -1,4 +1,4 @@
-package Ejercicios;
+package EjerciciosSecyCond;
 import java.util.*;
 /*Realiza un algoritmo que lea un dato de teclado y
  *  calcule e imprima su inverso.

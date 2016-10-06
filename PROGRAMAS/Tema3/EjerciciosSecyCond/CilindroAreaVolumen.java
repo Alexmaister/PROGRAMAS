@@ -1,4 +1,4 @@
-package Ejercicios;
+package EjerciciosSecyCond;
 
 import java.util.*;
 

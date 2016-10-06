@@ -12,20 +12,11 @@ import java.util.*;
  * ENTRADAS:
  * Radio y altura del cilindro
  * 
- * SALIDAS:
- * Se mostrara por pantalla el area lateral , total y el volumen del cilindro
- * 
- * PRECONDICIONES:
- * El radio y la altura pueden ser enteros o reales
- * 
- * POSTCONDICIONES
- * Se mostraran en pantalla los resultados
- * 
  * RESTRICCIONES:
  * Ninguna
  * 
  * SUPOSICIONES:
- * Supondremos que los datos introducidos seran numeros
+ * Supondremos q los numeros decimales se separaran con comas
  * 
  * */
 

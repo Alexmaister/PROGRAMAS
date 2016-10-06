@@ -1,4 +1,5 @@
 package Ejercicios;
+import java.util.*;
 /*Realiza un algoritmo que lea un dato de teclado y
  *  calcule e imprima su inverso.
  *   Considere el caso especial del valor 0 mostrando
@@ -53,8 +54,27 @@ public class Inverso {
 	
 	public static void main(String[]args){
 		
+		double numero=0.0;
+		double inverso=0.0;
 		
+		Scanner teclado=new Scanner(System.in);
 		
+		System.out.println("Introduzca el numero del cual quiera saber su inverso:");
+		numero=teclado.nextDouble();
+		
+		System.out.println("El numero es :"+numero);
+		
+		if(numero!=0){
+			
+			inverso=(1/numero);
+			System.out.println("El inverso de "+numero+" es : "+inverso);
+			
+		}else{
+			
+			System.out.println("El inverso de 0 es un numero indeterminado, que tiende a infinito");
+		}
+		
+		teclado.close();
 	}
 
 }

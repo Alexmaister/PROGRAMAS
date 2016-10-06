@@ -11,12 +11,6 @@ package Ejercicios;
 	 * Salidas:
 	 *     * Se mostraran por pantalla el resultado del valor absoluto
 	 * 
-	 * Precondiciones:
-	 *     * Los datos introducidos deben ser numeros enteros o reales(si son reales deben estar escritos con ",")
-	 * 
-	 * Postcondiciones:
-	 *     * El resultado sera un numero real
-	 *    
 	 * Restrincciones: 
 	 *     * Ninguna
 	 *     
@@ -91,6 +85,8 @@ public class ValorAbsoluto{
 			System.out.println("|"+numero+"| ="+numero);
 			
 		}//fin si
+		
+		teclado.close();
 		
 	}//fin main
 	

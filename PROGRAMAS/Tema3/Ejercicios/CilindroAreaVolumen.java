@@ -19,6 +19,23 @@ import java.util.*;
  * Supondremos q los numeros decimales se separaran con comas
  * 
  * */
+/*
+ * PSEUDOCODIGO:
+ * 
+ * INICIO
+ * 
+ * 	LEER DATO
+ * 	ECO DE LOS DATOS
+ * 	CALCULAR AREA LATERAL
+ * 	MOSTRAR RESULTADO
+ * 	CALCULAR AREA TOTAL
+ * 	MOSTRAR RESULTADO
+ * 	CALCULAR VOLUMEN
+ * 	MOSTRAR RESULTADO
+ * 	
+ * FIN
+ * 
+ * */
 
 public class CilindroAreaVolumen {
 	

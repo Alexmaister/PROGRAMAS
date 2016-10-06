@@ -7,15 +7,33 @@ package Ejercicios;
 /*ANALISIS:
  * 
  * DESCRIPCION:
+ * Programa que leera un numero de teclado, calculara su inverso y
+ *  lo mostrara por pantalla
  * 
  * REQUISITOS:
+ * Calcular inverso
+ * 
+ * ENTRADAS:
+ * Numero para calcular inverso
+ * 
+ * SALIDAS:
+ * Mostrara el resultado por pantalla
  * 
  * RESTRICCIONES:
+ * Ninguna
  * 
  * SUPOSICIONES:
- * 
+ * Supondremos que el dato introducido sera un numero real
  * 
  * */
+
+
 public class Inverso {
+	
+	public static void main(String[]args){
+		
+		
+		
+	}
 
 }

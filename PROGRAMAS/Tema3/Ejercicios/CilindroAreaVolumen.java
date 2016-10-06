@@ -64,18 +64,18 @@ public class CilindroAreaVolumen {
 		System.out.println("La altura del cilindro es:"+altura);
 		
 		//calculamos el areaLateral
-		areaLateral=(2+PI+radio)*altura;		
+		areaLateral=(2*PI*radio)*altura;		
 		
 		//mostramos resultado de areaTotal
 		System.out.println("El area lateral del cilindro de radio: "+radio+" y altura: "+altura+" es: "+areaLateral);
 		//calculamos el area total
-		areaTotal=(2*(2*PI*(radio*radio)))+areaLateral;
+		areaTotal=(2*PI*(radio*radio))+areaLateral;
 		
 		//mostramos resultado de areaTotal
 		System.out.println("El area total del cilindro de radio: "+radio+" y altura: "+altura+" es: "+areaTotal);
 		
 		//calculamos el volumen
-		volumen=2*PI*(radio*radio)*altura;
+		volumen=PI*(radio*radio)*altura;
 		
 		//mostramos resultado del volumen
 		System.out.println("El volumen del cilindro de radio: "+radio+" y altura: "+altura+" es: "+volumen);

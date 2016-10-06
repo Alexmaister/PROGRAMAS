@@ -27,6 +27,27 @@ package Ejercicios;
  * 
  * */
 
+/*
+ *PSEUDOCODIGO
+ *
+ * INICIO
+ * 
+ * 	MOSTRAR MESAJE
+ * 	LEER DATO
+ * 	ECO DEL DATO DE ENTRADA
+ * 
+ * 	SI NUMERO != 0
+ *		CALCULAR INVERSO
+ *		MOSTRAR RESULTADO
+ *
+ * 	SINO
+ * 		MOSTRAR MENSAJE
+ * 
+ * 	FIN SINO
+ *
+ * 
+ * FIN
+ */
 
 public class Inverso {
 	

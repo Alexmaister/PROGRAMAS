@@ -23,7 +23,8 @@ import java.util.*;
  * PSEUDOCODIGO:
  * 
  * INICIO
- * 
+ * 	
+ * 	MOSTRAR MENSAJE
  * 	LEER DATO
  * 	ECO DE LOS DATOS
  * 	CALCULAR AREA LATERAL

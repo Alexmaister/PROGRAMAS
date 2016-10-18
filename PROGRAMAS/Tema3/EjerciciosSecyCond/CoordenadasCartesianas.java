@@ -107,47 +107,23 @@ import java.util.*;
  * 		SINO SI (X<0 && Y<0 && Z<0)
  * 			MOSTRAR MENSAJE
  * 		
- * 		SINO SI(X>0)
- * 			SI (Y>0 && Z<0)
+ * 		SINO
+ * 			SI(X>0 && Y>0 && Z<0)
  *				MOSTRAR MENSAJE
  *
- * 			SINO SI(Y<0 && Z>0)
+ * 			SINO SI(X>0 && Y<0 && Z<0)
  * 				MOSTRAR MENSAJE
- * 			
- * 			FIN SINO
  * 
- * 		SINO SI(X<0)
- * 			SI (Y>0 && Z<0)
+ * 			SINO SI(X>0 && Y<0 && Z>0)
  *				MOSTRAR MENSAJE
  *
- * 			SINO SI(Y<0 && Z>0)
+ * 			SINO SI(X<0 && Y>0 && Z>0)
  * 				MOSTRAR MENSAJE
- * 			
- * 			FIN SINO
  * 
- * 		SINO SI(Y>0)
- * 			SI (X>0 && Z<0)
- *				MOSTRAR MENSAJE
- *
- * 			SINO SI(X<0 && Z>0)
+ * 			SINO SI(X<0 && Y<0 && Z>0)
  * 				MOSTRAR MENSAJE
- * 			
- * 			FIN SINO
- * 
- * 		SINO SI(Y<0)
- * 			SI (X>0 && Z<0)
- *				MOSTRAR MENSAJE
  *
- * 			SINO SI(X<0 && Z>0)
- * 				MOSTRAR MENSAJE
- * 			
- * 			FIN SINO
- * 
- * 		SINO SI(Z>0)
- * 			SI (X>0 && Y<0)
- *				MOSTRAR MENSAJE
- *
- * 			SINO SI(X<0 && Y>0)
+ * 			SINO SI(X<0 && Y>0 && Z<0)
  * 				MOSTRAR MENSAJE
  * 			
  * 			FIN SINO

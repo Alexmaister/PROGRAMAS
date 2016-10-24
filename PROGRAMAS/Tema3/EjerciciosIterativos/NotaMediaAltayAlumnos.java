@@ -5,6 +5,9 @@ package EjerciciosIterativos;
  * hasta que una de esta sea negativa, y se calculara la nota media ,
  * la mas alta , la mas baja y el numero de alumnos del curso
  * 
+ * BUCLES:
+ * 
+ * 
  * REQUISITOS:
  * hacer media de todas las notas
  * contar alumnos 
@@ -26,7 +29,24 @@ package EjerciciosIterativos;
  * Ninguna
  * */
 
-/*PSEUDOCODIGO:
+/*PSEUDOCODIGO GENERALIZADO:
+ * 
+ * INICIO
+ * PREGUNTAR Y VALIDAR EJECUTAR (1)
+ * 	MIENTRAS EJECUTAR SEA SI	(2)	
+ * 		LEER Y VALIDAR DATO		(3)
+ * 		MIENTRAS DATO NO  SEA SALIR	(4)
+ * 			LEER DATOS 
+ * 			CALCULAR NOTAS
+ * 		FIN MIENTRAS
+ * 		
+ * 		MOSTRAR RESULTADOS
+ * 		ACTUALIZAR Y VALIDAR EJECUTAR (1)
+ * 	FIN MIENTRAS
+ * FIN
+ */
+
+/*PSEUDOCODIGO DETALLADO:
  * 
  * INICIO
  * 

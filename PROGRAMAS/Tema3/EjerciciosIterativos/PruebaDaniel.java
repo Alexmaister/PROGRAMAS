@@ -15,7 +15,7 @@ public static void main(String[] args) {
 			System.out.println("sumar 1");
 			System.out.println("restar 2");
 			System.out.println("SALIR 3");
-			
+		
 			opcion=teclado.nextInt();
 			
 			if(opcion!=3){

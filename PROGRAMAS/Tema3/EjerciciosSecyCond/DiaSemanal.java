@@ -20,7 +20,7 @@ import java.util.*;
 /*
  * PSEUDOCODIGO:
  * 
- * INICIO
+ * INICIO.
  * 
  * 	MOSTRAR MENSAJE
  * 	LEER DATOS 
@@ -55,7 +55,7 @@ public class DiaSemanal {
 		
 		int numero=0;
 		
-		Scanner teclado=new Scanner(System.in);
+		Scanner teclado=new Scanner(System.in);																																																																										
 		
 		System.out.println("Introduzca el numero de la semana deseado");
 		numero=teclado.nextInt();

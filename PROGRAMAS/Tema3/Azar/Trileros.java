@@ -128,5 +128,8 @@ package Azar;
  * */
 public class Trileros {
 
-	
+	public static void  main(String[]args){
+		
+		
+	}
 }

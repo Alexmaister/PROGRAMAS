@@ -100,6 +100,7 @@ public class DiaSemanal {
 			System.out.println("El numero: "+numero+" no coincide con ningun dia de la semana");
 		
 		}
+		teclado.close();
 	}
 
 }

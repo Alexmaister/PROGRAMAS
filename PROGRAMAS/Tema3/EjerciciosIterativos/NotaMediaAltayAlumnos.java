@@ -194,6 +194,7 @@ public class NotaMediaAltayAlumnos {
 			}//FIN VALIDAR
 		}	//	FIN MIENTRAS
 	  
+		teclado.close();
 	}//FIN
 	
 }//FIN DE LA CLASE

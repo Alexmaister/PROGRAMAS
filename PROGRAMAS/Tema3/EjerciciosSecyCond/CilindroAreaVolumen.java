@@ -89,6 +89,7 @@ public class CilindroAreaVolumen {
 		//mostramos resultado del volumen
 		System.out.println("El volumen del cilindro de radio: "+radio+" y altura: "+altura+" es: "+volumen);
 		
+		teclado.close();
 	}
 
 }

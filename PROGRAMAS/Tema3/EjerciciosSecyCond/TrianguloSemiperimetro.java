@@ -1,5 +1,5 @@
 package EjerciciosSecyCond;
-import java.util.*;
+
 
 /*ANALISIS:
  * Programa que calculara el area de un triangulo mediante su semiperimetro 

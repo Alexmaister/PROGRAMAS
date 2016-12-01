@@ -193,8 +193,12 @@ public class NotaMediaAltayAlumnos {
 				ejecutar=Character.toUpperCase(teclado.next().charAt(0));
 			}//FIN VALIDAR
 		}	//	FIN MIENTRAS
+<<<<<<< HEAD
 	  
 		teclado.close();
+=======
+	  teclado.close();
+>>>>>>> origin/master
 	}//FIN
 	
 }//FIN DE LA CLASE

@@ -1,9 +1,9 @@
 package Subprogramas;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.*;
+import java.lang.*;
+
 
 /*ANALISIS
  * DESCRIPCION: PROGRAMA QUE PEDIRA DOS NUMEROS AL USUARIO Y MOSTRARA 
@@ -39,7 +39,7 @@ import java.util.*;
  */
 public class NumeroCombinatorio {
 	
-	public static void main(String[]args)throws IOException{//Usamos un metodo en el programa que lanza excepcion IOException, por lo que hay que capturarla o lanzarla
+	public static void main(String[]args){//Usamos un metodo en el programa que lanza excepcion IOException, por lo que hay que capturarla o lanzarla
 		int opcion=0;
 		int numero1=0, numero2=0;
 		double resultado=0;
@@ -178,7 +178,7 @@ public class NumeroCombinatorio {
 		return 2;
 	}*/
 	
-	public static int menuOpcion()throws IOException{//capturamos excepcion, ya que en caso de error la Clase InputStreamReader lanza una excepcion
+	public static int menuOpcion(){//capturamos excepcion, ya que en caso de error la Clase InputStreamReader lanza una excepcion
 		
 		int opcion=0;
 		InputStreamReader corriente=new InputStreamReader(System.in);
@@ -191,7 +191,21 @@ public class NumeroCombinatorio {
 			System.out.println("Elija una opcion: ");
 			
 			
-				opcion=Integer.parseInt(teclado.readLine());//integer clase cobertura, funciona con cadenas, por eso leemos next line.
+				try
+				{
+					opcion=Integer.parseInt(teclado.readLine());//integer clase cobertura, funciona con cadenas, por eso leemos next line.
+				}
+				catch(NumberFormatException exception){
+					
+					System.out.println("Introduzca un numero");
+					
+				}
+				catch(IOException io)
+				{
+					System.out.println("Error , Intentelo en otro momento");
+				}
+				
+				
 	
 			if(opcion <0 || opcion>2)
 				System.out.println("Introduzca una opcion valida");

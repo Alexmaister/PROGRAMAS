@@ -3,12 +3,15 @@ package FuncionalidadesCaracteres;
 public class ConductoresCaracteres {
 	public static void main(String[] args) {
 		//CaracteresAlfabeto
-		System.out.println(CaracteresAlfabeto.CompararCaracteres('b','a'));
-		System.out.println(CaracteresAlfabeto.LetraMayuscula('a'));
-		System.out.println(CaracteresAlfabeto.LetraMinus('*'));//necesita controlar error por el programa q lo use
+		System.out.println(Caracteres.CompararCaracteres('b','a'));
+		System.out.println(Caracteres.LetraMayuscula('a'));
+		System.out.println(Caracteres.LetraMinus('*'));//necesita controlar error por el programa q lo use
 		
 		
 		//CaraceterNumerico
-		System.out.println(CaracterNumerico.digitoDecimal('5'));
+		System.out.println(Caracteres.digitoDecimal('5'));
+		
+		//Signo de Puntucion
+		System.out.println(Caracteres.signoPuntuacion('-'));
 	}
 }

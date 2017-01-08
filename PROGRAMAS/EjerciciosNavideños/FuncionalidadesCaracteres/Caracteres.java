@@ -1,6 +1,6 @@
 package FuncionalidadesCaracteres;
 
-public class CaracteresAlfabeto {
+public class Caracteres {
 
 	/*cabecera: public static int CompararCaracteres(char a, char b)
 	 *
@@ -62,5 +62,36 @@ public class CaracteresAlfabeto {
 			resultado=false;
 		
 		return resultado;
+	}
+	
+
+	/*cabecera: public static boolean digitoDecimal(char n)
+	 * descripcion: funcion que comprobara si un numero esta entre 0 y 9 o no
+	 * entradas:un caracter
+	 * precondiciones:ninguna 
+	 * salidas : un boleano
+	 * postcondiciones: true si esta comprendido en el rango y false si no
+	 * */
+	
+	public static boolean digitoDecimal(char n){
+		boolean resultado;
+		
+		if(n>='0' || n<='9' )
+			resultado=true;
+		else resultado=false;
+		return resultado;
+	}
+	
+	/*cabecera : public static boolean signoPuntuacion(char  c)
+	 * descripcion: funcion que comprobara si un caracter es o no un signo de puntuacion
+	 * entradas :un caracter
+	 * precondiociones:ninguna
+	 * salidas : un boleano
+	 * postcondiciones: el resultado sera true de ser un signo de puntuacion
+	 */
+	
+	public static boolean signoPuntuacion(char c){
+		
+	return(c==44 || c==46 || c==58 || c==59 || c==33 || c==63 || c==168 || c==173)?true:false;
 	}
 }

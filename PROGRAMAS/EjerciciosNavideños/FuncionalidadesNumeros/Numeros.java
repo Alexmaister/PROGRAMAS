@@ -17,4 +17,8 @@ public class Numeros {
 				acumulador++;
 		return (acumulador>2)?true:false;
 	}
+	
+	/*
+	 * 
+	 */
 }

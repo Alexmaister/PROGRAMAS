@@ -38,12 +38,8 @@ public class Caracteres {
 	 * postcondiciones: el resultado sera true de ser mayor y false de no serlo 
 	 */
 	public static boolean LetraMayuscula(char a){
-		boolean resultado=true;
-		
-		if (a>='a'&& a<='z')
-			resultado=false;
-		
-		return resultado;
+			
+		return (a>='a'&& a<='z')?false:true;
 	}
 
 	/*cabezera:public static boolean LetraMinus(char a)
@@ -56,12 +52,8 @@ public class Caracteres {
 	 */
 	
 	public static boolean LetraMinus(char a){
-		boolean resultado=true;
-		
-		if (a>='A' && a<='Z')
-			resultado=false;
-		
-		return resultado;
+	
+	return (a>='A' && a<='Z')?false:true;
 	}
 	
 
@@ -74,12 +66,8 @@ public class Caracteres {
 	 * */
 	
 	public static boolean digitoDecimal(char n){
-		boolean resultado;
-		
-		if(n>='0' || n<='9' )
-			resultado=true;
-		else resultado=false;
-		return resultado;
+				
+		return(n>='0' || n<='9' )?true:false;
 	}
 	
 	/*cabecera : public static boolean signoPuntuacion(char  c)

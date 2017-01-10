@@ -38,16 +38,8 @@ public class Numeros {
 	}*///intento 1
 	
 	public static boolean numPerfecto(int num){
-		boolean resultado;
 		
-		if((num%2.0==0.0) && (num==SumaDivisoresNumPerfecto(num-(int)Math.round(num/2.0))))
-			resultado=true;
-		else resultado=false;
-		 
-
-		return resultado;
-		
-		//return(num==SumaDivisoresNumPerfecto(num-(int)Math.round(num/2.0)))?true:false;
+		return((num%2==0) && num==SumaDivisoresNumPerfecto(num-(int)Math.round(num/2.0)))?true:false;
 
 	}
 public static int SumaDivisoresNumPerfecto(int a){

@@ -4,7 +4,7 @@
 public class Persona {
 
     private String Nombre;
-    private int Edad;
+    private int Edad;//5
 
     public Persona(){}
 

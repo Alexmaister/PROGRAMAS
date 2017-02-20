@@ -37,19 +37,14 @@ public class Numeros {
 		return int 
 	}*///intento 1
 	
+	
+	
 	public static boolean numPerfecto(int num){
 		
 		return((num%2==0) && num==SumaDivisoresNumPerfecto(num-(int)Math.round(num/2.0)))?true:false;
 
 	}
-public static int SumaDivisoresNumPerfecto(int a){
-	int acumulador=0;
-	if(a!=1){
-		acumulador=a+ SumaDivisoresNumPerfecto((int)Math.round(a/2.0));
-	}else
-		acumulador=1;
-	return acumulador;
-} //intento 4,5,...
+	
 	
 	
 	/*cabecera: public static int siguienteDivisorPerf(int n)
@@ -59,15 +54,41 @@ public static int SumaDivisoresNumPerfecto(int a){
 	 * salidas: un entero
 	 * postcondiciones: el resultado sera un numero divisor siguiente mas pequeño del numero dado
 	 *
+	*/
+	public static int SumaDivisoresNumPerfecto(int a){
+		
+		int acumulador=0;
+		if(a!=1){
+		acumulador=a+ SumaDivisoresNumPerfecto((int)Math.round(a/2.0));
+		}else
+		acumulador=1;
+		return acumulador;
+	} //intento 4,5,...
 	
-	public static int siguienteDivisorPerf(int n){
-		
-		int resultado=0;
-		
-		
+	
+	
+	
+	
+	
+	/*cabecera: public static boolean numeroSemiperfecto()
+	 * decripcion: funcion que comprobara si un numero es o no Semiperfecto
+	 * entradas: un entero
+	 * precondiciones: el numero debe ser un numero entero positivo y distinto de cero
+	 * salidas : un booleano
+	 * postcondiciones: el resultado sera true si el numero es semiperfecto y false si no
+	 * */
+	
+	public static boolean numeroSemiperfecto(int num){
+		double variable=2.0;
+		boolean resultado=false;
+		while((num/variable>1&&num>=SumaDivisoresNumPerfecto((int)Math.round(num/variable)))&& resultado==false){
+			if (num==SumaDivisoresNumPerfecto((int)Math.round(num/variable)))
+				resultado=true;
+			else resultado=false;
+			variable+=2;
+		}
 		return resultado;
-	}*/
-	
+	}
 
 	
 }
